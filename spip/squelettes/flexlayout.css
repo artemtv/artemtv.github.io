@@ -12,9 +12,14 @@ nav {
 	flex-grow: 1;
 	background-color: red;
 }
+.nav-root-top {
+    flex-grow: 1;
+    text-align: center;
+}
 .wrap {
  	position: relative;
  	visibility: hidden;
+    display: none;
  }
 .nav-inner {
 	position: absolute;
@@ -27,6 +32,10 @@ nav {
 .nav-root-top:hover {
 	background-color: #f5efef;
 	color: red;
+}
+.item {
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 ul {
 	list-style-type: none;
@@ -52,4 +61,7 @@ a {
  }
  .nav-root-top:hover .nav-inner a {
  	color: red;
+ }
+ .nav-root-top:hover .wrap {
+    display: block;
  }
