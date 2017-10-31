@@ -51,6 +51,8 @@ nav, .branding, .news-list {
     width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+    z-index: 99;
+    border-bottom: 4px solid #a7344f;
 }
 .nav-root-top:hover {
 	background-color: #f5efef;
