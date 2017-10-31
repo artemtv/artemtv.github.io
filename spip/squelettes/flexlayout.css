@@ -6,6 +6,7 @@ body {
 nav {
 	max-width: 1170px;
 	margin: 0 auto;
+    position: relative;
 }
 .nav-root {
 	display: flex;
@@ -20,13 +21,14 @@ nav {
 }
 .wrap {
     max-width: 1170px;
- 	position: relative;
+ 	/* position: relative; */
  	visibility: hidden;
     display: none;
  }
 .nav-inner {
 	position: absolute;
-	left: 0;	
+	left: 0;
+    width: 100%;
 	display: flex;	
 	/* flex-direction: row; */
 	/* align-items: stretch; */
