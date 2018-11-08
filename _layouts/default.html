@@ -7,8 +7,9 @@
 	</head>
 	<body>
         <header>
-            {% include nav.html %}
+            {% include nav.html navclass='nav-top' %}
         </header>
         {{content}}
+        {% include nav.html navclass='nav-bottom' %}
     </body>
 </html>
